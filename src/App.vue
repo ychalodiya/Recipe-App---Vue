@@ -1,8 +1,5 @@
 <script setup></script>
 
-<template>
-	<div>My Recipe App</div>
-	>
-</template>
+<template><router-view></router-view></template>
 
 <style scoped></style>
