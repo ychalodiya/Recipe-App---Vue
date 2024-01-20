@@ -5,6 +5,7 @@ import RecipeList from '../views/RecipeList.vue';
 import RecipeByLetters from '../views//RecipesByLetters.vue';
 import RecipeByIngredients from '../views//RecipesByIngredients.vue';
 import RecipeByName from '../views/RecipesByName.vue';
+import GuestLayout from '../components/GuestLayout.vue';
 
 const Router = createRouter({
 	history: createWebHistory(),
@@ -39,6 +40,11 @@ const Router = createRouter({
 					component: RecipeList,
 				},
 			],
+		},
+		{
+			path: '/guest',
+			name: 'guest',
+			component: GuestLayout,
 		},
 	],
 });
