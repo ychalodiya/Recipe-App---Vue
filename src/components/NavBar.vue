@@ -17,7 +17,7 @@
 				>Search By ingredients</router-link
 			>
 			<router-link
-				:to="{ name: 'recipeByLetter' }"
+				:to="{ name: 'searchByLetter' }"
 				class="inline-flex items-center transition-colors px-2 h-full hover:bg-purple-100"
 				>Recipes By letters</router-link
 			>

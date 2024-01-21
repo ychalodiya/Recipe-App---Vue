@@ -22,7 +22,7 @@ const Router = createRouter({
 				},
 				{
 					path: '/search-by-letter/:letter?',
-					name: 'recipeByLetter',
+					name: 'searchByLetter',
 					component: RecipeByLetters,
 				},
 				{
@@ -37,7 +37,7 @@ const Router = createRouter({
 				},
 				{
 					path: '/search/:letter',
-					name: 'searchByLetter',
+					name: 'recipeByLetter',
 					component: RecipeList,
 				},
 				{
