@@ -1,6 +1,8 @@
 <template>
 	<header class="bg-white shadow-md h-24 flex justify-between items-stretch">
-		<router-link :to="{ name: 'home' }" class="inline-flex items-center px-5"
+		<router-link
+			:to="{ name: 'home' }"
+			class="inline-flex items-center px-5 font-medium"
 			>Home</router-link
 		>
 		<div class="flex items-center gap-2">
